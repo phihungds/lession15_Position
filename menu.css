@@ -1,0 +1,27 @@
+*{margin: 0; padding: 0px;}
+ul {
+    width: 1380px;
+    height: 70px;
+    background-color: #272882;
+    position: fixed;
+    top: 0px;
+}
+li {
+    float: left;
+    line-height: 70px;
+    list-style: none;
+    margin-left: 50px;
+    width: 80px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    /* color: red; */
+    text-decoration: underline;
+}
+li:hover {
+    background-color: red;
+}
